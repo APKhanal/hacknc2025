@@ -1,0 +1,45 @@
+# Python cache and bytecode
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+
+# Test files
+**/test_*.py
+**/tests/
+**/*_test.py
+
+# Audio test files
+**/*.mp3
+**/*.wav
+
+# Documentation
+**/*.md
+!README.md
+
+# Database files
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Development files
+.env
+.env.local
+.env*.local
+
+# Node modules (already excluded but just in case)
+**/node_modules/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Other Python stuff
+**/*.egg-info/
+**/dist/
+**/build/
