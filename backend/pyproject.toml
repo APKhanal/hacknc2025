@@ -38,7 +38,7 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["app"]
+packages = {find = {where = ["."]}}
 
 [tool.setuptools.package-dir]
 "" = "."
