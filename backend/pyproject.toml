@@ -7,7 +7,7 @@ name = "stocklens-backend"
 version = "1.0.0"
 description = "StockLens FastAPI Backend"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.9,<3.13"
 authors = [
     {name = "StockLens Team", email = "team@stocklens.com"},
 ]
